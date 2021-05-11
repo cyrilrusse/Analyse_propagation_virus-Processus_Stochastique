@@ -111,7 +111,7 @@ Ils se composent de 8 états transitoires
 Voici ensuite le graphe de transition associé à la chaine de Markov.
 \begin{figure}[h]
     \centering
-    \includegraphics[scale=0.45]{graphe_question1.jpg}
+    \includegraphics[scale=0.55]{graphe_question1.jpg}
     \caption{Graphe de transition associé à la chaine de Markov}
 \end{figure}
 
@@ -126,6 +126,64 @@ $C1 = \{IS, II, SI, RI, IR\}
 \\C5 = \{SS\}$
 \\Les classes C1, C2, C3 et C4 sont des classes de passages 
 et la classe C5 est une classe finale.
+Etant donné que nous avons ces 5 classes, la chaine n'est pas irréductible.
+Elle n'est pas non plus périodique. Si elle n'est pas irréductible et pas périodique 
+elle n'est pas régulière. Elle est par ailleurs absobante étant donné que la classe 
+C5 est finale.
+
+\subsection{Question 3}
+
+\subsection{Question 4}
+\subsubsection{Calcul du temps de disparition du virus}
+La Figure 2 représente la matrice de transition.
+
+\begin{figure}[h]
+    \centering
+    \hspace{+0.5cm}{
+    \includegraphics[scale=0.95]{vecteur_ligne.jpg}}\\
+    \includegraphics[scale=0.5]{ordre_matrice_transitionQ4.jpg}
+    \includegraphics[scale=0.5]{matriceTansition_Q4.jpg}
+    \caption{Matrice de transition}
+\end{figure}
+En utilisant le théorème des temps moyens d'atteinte, à partir de cette 
+matrice de transition, nous avons trouvé qu'en moyenne avec comme situation initiale 
+"SI", il faut en moyenne 10,543 pas de temps pour atteindre "RR" et 16,543 pas 
+de temps pour atteindre "SR" ou "RS". Ce qui donne en moyenne 14,543 pas de temps pour atteindre 
+un de ces 3 cas. Et celà correspond donc au temps moyen nécessaire à la disparition  totale du virus car 
+à partir du moment où l'on atteint un de ces 3 états, il n'est plus possible d'avoir un nouveau cas 
+infectieux.
+
+\subsubsection{Analyse de l'impact des paramètres sur le temps de disparition du virus}
+Afin d'atteindre un état de disparition du virus, il est interessant d'avoir une faible chance de passer d'un 
+statut sain : Susceptible ou Immunisés. Et une forte de chance que les cas Infectieux guérissent. 
+Dorénavant, en terme de paramètres, il est interessant d'avoir de très petites valeurs pour 
+$\beta$ et $\alpha$. En revanche un grande valeur de $\mu$ serait préférable.
+
+\subsection{Question 5}
+
+\begin{itemize}
+    \item a)
+    \\
+    \item b)
+    \\Afin de calculer le pourcentage de temps passé par chaque individu 
+    dans l'état infectieux, nous devons trouver, étant donné que la chaine de Markov 
+    est régulière, le vecteur de distribution obtenu en calculant la limite pour n qui 
+    tend vers l'infini de la matrice de transition à la puissance n.(Figure 3)
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.55]{ordre_matrice_transitionQ4.jpg}
+        \includegraphics[scale=0.55]{vecteur_Q5.jpg}
+        \caption{Vecteur de distribution lors de l'état stationnaire de la chaine de Markov régulière}
+    \end{figure}
+    \\Pour la première personne, nous nous interesserons aux 3 premières lignes du 
+    vecteur. Ainsi, celle-ci passera en moyenne 20,96\% de son temps dans l'état infectieux.
+    Dans le cas du deuxième, nous avons besoin des lignes 3 à 5 et on obtient 16,623207\% de temps 
+    dans l'état infectieux. 
+    \\Nous observons donc bien un plus grand pourcentage 
+    pour la première personne ayant d'autres contact extérieur impliquant un 
+    plus grande probabilité d'être infecté.
+
+\end{itemize}
 
 
 

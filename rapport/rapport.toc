@@ -1,4 +1,9 @@
 \babel@toc {french}{}
 \contentsline {section}{\numberline {1}\textbf {Modèle(s) exact(s) à deux individus}}{3}%
 \contentsline {subsection}{\numberline {1.1}Question 1}{3}%
-\contentsline {subsection}{\numberline {1.2}Question 2}{3}%
+\contentsline {subsection}{\numberline {1.2}Question 2}{4}%
+\contentsline {subsection}{\numberline {1.3}Question 3}{4}%
+\contentsline {subsection}{\numberline {1.4}Question 4}{4}%
+\contentsline {subsubsection}{\numberline {1.4.1}Calcul du temps de disparition du virus}{4}%
+\contentsline {subsubsection}{\numberline {1.4.2}Analyse de l'impact des paramètres sur le temps de disparition du virus}{4}%
+\contentsline {subsection}{\numberline {1.5}Question 5}{4}%
