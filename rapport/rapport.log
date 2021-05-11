@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.27)  11 MAY 2021 15:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.5.27)  11 MAY 2021 18:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -401,49 +401,60 @@ File: graphe_question1.jpg Graphic file (type jpg)
 Package pdftex.def Info: graphe_question1.jpg  used on input line 114.
 (pdftex.def)             Requested size: 274.92796pt x 353.32109pt.
  [3 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe_question1.jpg>]
-<vecteur_ligne.jpg, id=25, 239.39438pt x 16.56187pt>
+<graphiqueSIR.jpg, id=25, 408.77719pt x 204.01219pt>
+File: graphiqueSIR.jpg Graphic file (type jpg)
+<use graphiqueSIR.jpg>
+Package pdftex.def Info: graphiqueSIR.jpg  used on input line 146.
+(pdftex.def)             Requested size: 388.33612pt x 193.81047pt.
+<vecteur_ligne.jpg, id=26, 239.39438pt x 16.56187pt>
 File: vecteur_ligne.jpg Graphic file (type jpg)
 <use vecteur_ligne.jpg>
-Package pdftex.def Info: vecteur_ligne.jpg  used on input line 143.
+Package pdftex.def Info: vecteur_ligne.jpg  used on input line 157.
 (pdftex.def)             Requested size: 227.42336pt x 15.73367pt.
-<ordre_matrice_transitionQ4.jpg, id=26, 37.64063pt x 152.44453pt>
+<ordre_matrice_transitionQ4.jpg, id=27, 37.64063pt x 152.44453pt>
 File: ordre_matrice_transitionQ4.jpg Graphic file (type jpg)
 <use ordre_matrice_transitionQ4.jpg>
-Package pdftex.def Info: ordre_matrice_transitionQ4.jpg  used on input line 144.
+Package pdftex.def Info: ordre_matrice_transitionQ4.jpg  used on input line 158.
 (pdftex.def)             Requested size: 18.82025pt x 76.22208pt.
-<matriceTansition_Q4.jpg, id=27, 467.12016pt x 152.44453pt>
+<matriceTansition_Q4.jpg, id=28, 467.12016pt x 152.44453pt>
 File: matriceTansition_Q4.jpg Graphic file (type jpg)
 <use matriceTansition_Q4.jpg>
-Package pdftex.def Info: matriceTansition_Q4.jpg  used on input line 145.
+Package pdftex.def Info: matriceTansition_Q4.jpg  used on input line 159.
 (pdftex.def)             Requested size: 233.55951pt x 76.22208pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+[4 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphiqueSIR.jpg>]
+<graphe2Q5.jpg, id=35, 554.57187pt x 642.4pt>
+File: graphe2Q5.jpg Graphic file (type jpg)
+<use graphe2Q5.jpg>
+Package pdftex.def Info: graphe2Q5.jpg  used on input line 182.
+(pdftex.def)             Requested size: 305.01547pt x 353.32109pt.
+ [5 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_ligne.jpg> </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/ordre_matrice_transitionQ4.jpg> </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/matriceTansition_Q4.jpg> </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe2Q5.jpg>]
 File: ordre_matrice_transitionQ4.jpg Graphic file (type jpg)
 <use ordre_matrice_transitionQ4.jpg>
-Package pdftex.def Info: ordre_matrice_transitionQ4.jpg  used on input line 174.
+Package pdftex.def Info: ordre_matrice_transitionQ4.jpg  used on input line 192.
 (pdftex.def)             Requested size: 20.7024pt x 83.84474pt.
-<vecteur_Q5.jpg, id=28, 98.99484pt x 152.44453pt>
-File: vecteur_Q5.jpg Graphic file (type jpg)
-<use vecteur_Q5.jpg>
-Package pdftex.def Info: vecteur_Q5.jpg  used on input line 175.
+<vecteurQ5.jpg, id=39, 98.99484pt x 152.44453pt>
+File: vecteurQ5.jpg Graphic file (type jpg)
+<use vecteurQ5.jpg>
+Package pdftex.def Info: vecteurQ5.jpg  used on input line 193.
 (pdftex.def)             Requested size: 54.44733pt x 83.84474pt.
-[4 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_ligne.jpg> </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/ordre_matrice_transitionQ4.jpg> </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/matriceTansition_Q4.jpg>] [5 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_Q5.jpg>] (/home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/rapport.aux) ) 
+ [6 </home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteurQ5.jpg>] (/home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/rapport.aux) ) 
 Here is how much of TeX's memory you used:
- 6853 strings out of 481239
- 97244 string characters out of 5920377
+ 6865 strings out of 481239
+ 97450 string characters out of 5920377
  538253 words of memory out of 5000000
- 21960 multiletter control sequences out of 15000+600000
+ 21970 multiletter control sequences out of 15000+600000
  550692 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,8n,51p,307b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/rapport.pdf (5 pages, 497095 bytes).
+Output written on /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/rapport.pdf (6 pages, 781825 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

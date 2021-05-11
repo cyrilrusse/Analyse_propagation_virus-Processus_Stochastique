@@ -133,9 +133,23 @@ C5 est finale.
 
 \subsection{Question 3}
 
+Afin de trouver les proportions des différents états, il nous suffit de 
+calculer pour chaque pas de temps les proportions de chaque état à l'aide de 
+la puissance correspondante de la matrice de transition. Ce qui amène au graphique 
+ci-dessous. On observe bien que l'on tend vers une disparition du virus et donc 
+au fur et à mesure du temps on observe que S tend vers 1, en effet, si 
+le virus disparait la totalité de la distribution tend à se retrouver dans S.
+(Détail des opérations pour obtenir ce graphique dans le script )
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=0.95]{graphiqueSIR.jpg}
+    \caption{Proportion des différents états en fonction du temps}
+\end{figure}
+
 \subsection{Question 4}
 \subsubsection{Calcul du temps de disparition du virus}
-La Figure 2 représente la matrice de transition.
+La Figure 3 représente la matrice de transition.
 
 \begin{figure}[h]
     \centering
@@ -163,21 +177,25 @@ $\beta$ et $\alpha$. En revanche un grande valeur de $\mu$ serait préférable.
 
 \begin{itemize}
     \item a)
-    \\
+    \\    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.55]{graphe2Q5.jpg}
+        \caption{Nouveau graphe de transition prenant $\delta$ en compte}
+    \end{figure}
     \item b)
     \\Afin de calculer le pourcentage de temps passé par chaque individu 
     dans l'état infectieux, nous devons trouver, étant donné que la chaine de Markov 
     est régulière, le vecteur de distribution obtenu en calculant la limite pour n qui 
-    tend vers l'infini de la matrice de transition à la puissance n.(Figure 3)
+    tend vers l'infini de la matrice de transition à la puissance n.(Figure 4)
     \begin{figure}[h]
         \centering
         \includegraphics[scale=0.55]{ordre_matrice_transitionQ4.jpg}
-        \includegraphics[scale=0.55]{vecteur_Q5.jpg}
+        \includegraphics[scale=0.55]{vecteurQ5.jpg}
         \caption{Vecteur de distribution lors de l'état stationnaire de la chaine de Markov régulière}
     \end{figure}
     \\Pour la première personne, nous nous interesserons aux 3 premières lignes du 
-    vecteur. Ainsi, celle-ci passera en moyenne 20,96\% de son temps dans l'état infectieux.
-    Dans le cas du deuxième, nous avons besoin des lignes 3 à 5 et on obtient 16,623207\% de temps 
+    vecteur. Ainsi, celle-ci passera en moyenne 21,03\% de son temps dans l'état infectieux.
+    Dans le cas du deuxième, nous avons besoin des lignes 3 à 5 et on obtient 16,45\% de temps 
     dans l'état infectieux. 
     \\Nous observons donc bien un plus grand pourcentage 
     pour la première personne ayant d'autres contact extérieur impliquant un 

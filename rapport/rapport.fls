@@ -174,6 +174,9 @@ INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe_question1.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe_question1.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1095.tfm
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphiqueSIR.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphiqueSIR.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphiqueSIR.jpg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1095.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1095.tfm
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_ligne.jpg
@@ -185,11 +188,14 @@ INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/matriceTansition_Q4.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/matriceTansition_Q4.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/matriceTansition_Q4.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe2Q5.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe2Q5.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/graphe2Q5.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/ordre_matrice_transitionQ4.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/ordre_matrice_transitionQ4.jpg
-INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_Q5.jpg
-INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_Q5.jpg
-INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteur_Q5.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteurQ5.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteurQ5.jpg
+INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/vecteurQ5.jpg
 INPUT /home/cyril/Documents/2020-21/2eme_quadri/intro_proc_stoch/projet/rapport/rapport.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
